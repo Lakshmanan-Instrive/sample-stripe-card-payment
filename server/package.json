@@ -1,0 +1,21 @@
+{
+  "name": "sample-stripe-card-payment",
+  "version": "1.0.0",
+  "description": "Stripe card based payment sample.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "instrive",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.3",
+    "nodemon": "^3.1.4",
+    "stripe": "^14.21.0",
+    "winston": "^3.14.2"
+  }
+}
