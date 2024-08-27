@@ -92,6 +92,7 @@ app.post('/create-payment-intent', async (req, res) => {
       email: req.body.email
     });
     if (!paymentDetails) {
+      console.log("ABC");
       return res.status(400).send({
         error: {
           message: 'Payment method not found for this email',
